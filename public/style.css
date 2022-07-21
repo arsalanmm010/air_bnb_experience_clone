@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .nav {
+    display: flex;
+    height: 90px;
+    box-shadow: 0px 2.982px 7.5px rgba(0,0,0,0.1);
+    padding: 20px 36px;
+    margin-bottom: 20px;
+  }
+  
+  .logo {
+    max-width: 100px;
+  }
+  
+  .grid {
+    width: 75%;
+    height: 60%;
+    padding-left: 20%; 
+    padding-top: 96px;
+  }
+  
+  .content {
+    padding-top: 20px;
+    padding-left: 10%;
+  }
+  
+  .content > h1 {
+    color: #000;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 40px;
+  }
+  
+  .content > p {
+    font-weight: 300;
+    line-height: 17.6px;
+    color: #222;
+    max-width: 50%;
+  }
+  
+  .carList {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 25px;
+    overflow-x: auto;
+    overflow-y: scroll;
+    padding: 20px;
+  }
+  
+  .card {
+    position: relative;
+    margin: 0px;
+    line-height: 30px;
+    padding-left: 10%;
+  }
+  
+  .swim {
+    width: 200px;
+    border-radius: 9px;
+    height: 200px;
+  }
+  
+  span {
+    display: flex;
+    align-items: center;
+  }
+  
+  .star {
+    width: 14px;
+    height: 14px;
+    border-radius: 0.5px;
+  }
+  
+  .lesson {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 110%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .lastp {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 110%;
+    color: #222;
+  }
+
+  .status {
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    background-color: white;
+    padding: 3px 5px;
+    border-radius: 8px;
+    font-weight: bold;
+    margin-left: 42%;
+  }
